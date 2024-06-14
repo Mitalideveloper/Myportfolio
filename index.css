@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#home {
+    background: url('img/6.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+span{
+    color: aqua;
+}
+#about, #projects, #contact {
+    padding: 60px 0;
+}
+
+#projects .card {
+    transition: transform 0.3s;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
+
+.education-section {
+    padding: 50px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.education-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.education-container {
+    margin-top: 20px;
+}
+
+.education-item {
+    background-color: #e7e9fc;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+    transform: scale(1.05);
+}
+
+.education-item h3 {
+    margin-top: 0;
+    color: #444;
+}
+
+.education-item p {
+    margin: 5px 0;
+    color: #666;
+}
+.links-section {
+    margin-top: 50px;
+}
+
+.links-section a {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.links-section a {
+    font-size: 24px;
+    margin: 0 15px;
+    color: #0077b5; /* Default LinkedIn color */
+    transition: color 0.3s ease;
+}
+
+.links-section a:hover {
+    color: #005582; /* Darker LinkedIn color */
+}
+
+.links-section a .fa-github {
+    color: #333; /* GitHub color */
+}
+
+.links-section a .fa-file-download {
+    color: #28a745; /* Resume download color */
+}
+
